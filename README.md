@@ -62,16 +62,3 @@ GitHub username: tr-reny<br>
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
-
-``` 
-    pip install django-cors-headers
-    pip install django-crispy-forms
-    pip install xhtml2pdf
-    pip install -r requirements.txt
-```
-updating 
-``` pip install --upgrade django-crispy-forms ```
-
-running 
-``` python manage.py runserver
-```
