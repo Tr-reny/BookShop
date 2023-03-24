@@ -56,9 +56,7 @@ If you'd like to contribute to this project, please follow these steps:
 5. Create a pull request
 
 ## Author
-
-Reny Kipkoech<br>
-GitHub username: tr-reny<br>
+Reny Kipkoech - [Github](https://github.com/Tr-reny) / [Twitter](https://twitter.com/TRipper-rey) 
 
 ## License
 
