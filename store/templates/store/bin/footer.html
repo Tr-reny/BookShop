@@ -3,37 +3,41 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-4 col-xs-12 footer_menu">
-				<h3>Contact</h3>
+				<h3>Contact Us</h3>
 				<ul>
 					<li class="footer_contact">
 						<i class="fa fa-phone"></i>
-						<p>  +254 707863586 </p>
+						<p>+254 707863586</p>
 					</li>
 					<li class="footer_contact">
 						<i class="fa fa-envelope"></i>
-						<p> rennykipkoech@gmail.com </p>
+						<p>rennykipkoech@gmail.com</p>
 					</li>
 					<li class="footer_contact">
 						<i class="fa fa-map-marker"></i>
-						<p>Nairobi Kenya</p>
+						<p>Nairobi, Kenya</p>
 					</li>
 				</ul>
 			</div>
-		 
-			 <div class="col-sm-6 col-md-4 col-xs-12 footer_menu">
-				<h3>Menu</h3>
+
+			<div class="col-sm-6 col-md-4 col-xs-12 footer_menu">
+				<h3>Explore</h3>
 				<ul>
 					<li class="footer_menu">
+						<a href="{% url 'store:index' %}"><i class="fa fa-angle-right"></i>Home</a>
+					</li>
+					<li class="footer_menu">
 						<a href="{% url 'store:books' %}"><i class="fa fa-angle-right"></i>Books</a>
-					</li>					
+					</li>
+					
 				</ul>
 			</div>
 			
 			<div class="col-sm-6 col-md-4 col-xs-12 footer_news">
-				<h3>We accept payment via</h3>
+				<h3>Payment Methods</h3>
 				<div class="footer_paymentmethod">
-					<img src="{% static 'images/mpesa.png' %}" alt="" />
-					<img src="{% static 'images/visa.png' %}" alt="" />
+					<img src="{% static 'images/mpesa.png' %}" alt="M-Pesa" />
+					<img src="{% static 'images/visa.png' %}" alt="Visa" />
 				</div>
 			</div>
 		</div>
