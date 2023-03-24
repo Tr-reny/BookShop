@@ -2,6 +2,9 @@
 
 This is an online bookstore project built using Django. It allows users to browse books, view book details, add books to cart, checkout, and make payments.
 
+## Demo Site 
+http://54.209.244.204
+
 ## Getting Started
 
 To get started with this project, you'll need to have the following software installed on your system:
@@ -27,8 +30,6 @@ e.g
 ```
 4. Apply the database migrations using the command `python manage.py migrate`
 5. Run the development server using the command `python manage.py runserver`
-6. Apply the database migrations using `python manage.py migrate`
-7. Run the development server using `python manage.py runserver`
 
 ## Features
 
